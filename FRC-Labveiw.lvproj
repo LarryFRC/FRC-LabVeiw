@@ -129,6 +129,7 @@ KeepAliveTimeout 60
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Find Target.vi" Type="VI" URL="../Find Target.vi"/>
 			<Item Name="Correct Aim.vi" Type="VI" URL="../Correct Aim.vi"/>
+			<Item Name="WPI_RobotMotorDelayAndUpdateSafety.vi" Type="VI" URL="../WPI_RobotMotorDelayAndUpdateSafety.vi"/>
 		</Item>
 		<Item Name="Motor Code" Type="Folder">
 			<Item Name="Firing.vi" Type="VI" URL="../Firing.vi"/>
@@ -719,10 +720,7 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Rec Targeting.vi" Type="VI" URL="../Rec Targeting.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Firing Arm2.vi" Type="VI" URL="../Firing Arm2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
